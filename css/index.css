@@ -1,0 +1,70 @@
+@import url("./style.css");
+@import url("./nav.css");
+
+body{
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-position: center bottom;
+    color: #5b5859;
+    
+}
+
+h2{
+    color: #89c244;
+    font-size: 4rem;
+    margin-block: 5rem;
+}
+
+.window{
+    height: 100%;
+    display: flex;
+    
+}
+
+.left{
+    height: 100%;
+    max-width: 25vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3rem;
+    
+    align-items: center;
+}
+
+.left #lk{
+    background-color: #89c244;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.text-left{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.right{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.right span{
+    display: inline-block;
+    width: 30%;
+}
+
+.right h2{
+    width: 60%;
+}
+
+.brand{
+    color: rgb(48, 161, 89);
+    font-size: 1.5rem;
+}
