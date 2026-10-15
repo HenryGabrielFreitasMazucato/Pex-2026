@@ -10,7 +10,7 @@ body{
 }
 
 h2{
-    color: #89c244;
+    color: #3fb849;
     font-size: 4rem;
     margin-block: 5rem;
 }
@@ -34,7 +34,7 @@ h2{
 }
 
 .left #lk{
-    background-color: #89c244;
+    background-color: #245d3a;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -57,7 +57,9 @@ h2{
 
 .right span{
     display: inline-block;
-    width: 30%;
+    width: 30%; 
+    font-size: 1.2rem;
+    color: #E8F5E9;
 }
 
 .right h2{
@@ -65,6 +67,6 @@ h2{
 }
 
 .brand{
-    color: rgb(48, 161, 89);
+    color: #245d3a;
     font-size: 1.5rem;
 }
