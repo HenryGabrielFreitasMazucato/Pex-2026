@@ -68,9 +68,12 @@
 
         text-decoration: none;
 
+        transition: transform 0.1s ease;
+
         &:hover{
             text-decoration: underline;
             cursor: pointer;
+            transform: scale(1.05);
         }
     }
 

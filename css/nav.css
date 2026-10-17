@@ -23,4 +23,9 @@
 .nav a {
     text-decoration: none;
     color: inherit;
+
+    &:hover{
+        text-decoration: underline;
+        color: #245d3a;
+    }
 }
