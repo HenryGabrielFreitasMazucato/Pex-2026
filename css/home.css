@@ -1,1 +1,129 @@
 @import url("./style.css");
+
+.container{
+    height: 100vh;
+    color: #245d3a;
+}
+
+.banner{
+    background-color: #cfe0d0;
+    width: 100%;
+    height: 30%;
+
+    margin-bottom: 2rem;
+    
+    display: flex;
+    justify-content: space-between;
+    & div{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 40%;
+        height: 100%;
+
+        gap: 0.5rem;
+
+        & h1{
+            font-size: 1rem;
+        }
+
+        & h2{
+            font-size: 2rem;
+        }
+    }
+
+    & a{
+        margin: 3rem;
+        max-height: 1rem;
+        padding: 0.7rem;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #E8F5E9;
+        color: inherit;
+
+        text-decoration: none;
+
+        transition: transform 0.1s ease;
+
+        width: fit-content;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    }
+}
+
+.available{
+    padding-inline: 4rem;
+
+    & h3{
+        color: #245d3a;
+    }
+}
+
+.cardContainer{
+    margin-top: 2rem;
+
+    display: flex;
+    gap: 1rem;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    margin-bottom: 13rem;
+
+    padding: 1rem;
+
+    & .card {
+    width: 13rem;
+    height: 13rem;
+    background-color: #cfe0d0;
+
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    
+
+    &:hover {
+        transform: scale(1.05);
+        }
+        
+        & img{
+            width: 100%;
+            height: fit-content;
+        }
+
+        & .type {
+            color: white;
+            background-color: #245d3a;
+            padding-inline: auto;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+footer{
+    color: #E8F5E9;
+    background-color: #245d3a;
+    height: 3.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+}
