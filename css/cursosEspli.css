@@ -132,3 +132,51 @@ h1{
         color: #245d3a;
     }
 }
+
+@media (max-width: 700px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .container {
+        padding: 1.25rem;
+    }
+
+    .questionContainer {
+        min-height: 0;
+    }
+
+    .topContainer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .side {
+        width: 100%;
+    }
+
+    .side h1 {
+        font-size: 2rem;
+    }
+
+    .rightSide {
+        padding-top: 0;
+        height: auto;
+    }
+
+    .rightSide img {
+        width: 100%;
+        max-height: 20rem;
+        object-fit: contain;
+    }
+
+    .buttonContainer {
+        gap: 0.5rem;
+    }
+
+    .buttonContainer button {
+        margin-inline: 0;
+        padding: 0.75rem;
+    }
+}

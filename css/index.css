@@ -70,3 +70,43 @@ h2{
     color: #245d3a;
     font-size: 1.5rem;
 }
+
+@media (max-width: 700px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .window {
+        min-height: 100vh;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        padding: 2rem 1.5rem;
+    }
+
+    .text-left {
+        margin: 1.5rem 0;
+    }
+
+    .right {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .right h2 {
+        width: 100%;
+        font-size: 2.25rem;
+        margin-block: 2rem;
+    }
+
+    .right span {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
