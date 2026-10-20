@@ -125,7 +125,7 @@ function pageSub(){
 
 function mostrarResultados(){
     const card = document.createElement("div")
-    card.style = "background-color: #cfe0d0; padding: 1rem; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 20%; height: 40%; gap: 1rem; color:;#245d3a"
+    card.style = "background-color: #cfe0d0; padding: 1rem; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 20%; min-width: 10rem; height: 40%; gap: 1rem; color:;#245d3a"
 
     const backButton = document.createElement("a")
     backButton.textContent = "Ver mais cursos"
