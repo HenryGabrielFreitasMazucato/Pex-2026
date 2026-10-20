@@ -86,6 +86,9 @@
     height: 13rem;
     background-color: #cfe0d0;
 
+    text-decoration: none;
+    color: inherit;
+
     border-radius: 10px;
     border: none;
     overflow: hidden;
