@@ -1,0 +1,182 @@
+@import url(./style.css);
+
+h1{
+    font-size: 3rem;
+}
+
+#resumo{
+    background-color: #cfe0d0;
+
+    width: 100%;
+    min-height: 7rem;
+
+    border-radius: 10px;
+
+    padding: 1rem;
+
+    display: flex;
+    
+    align-items: center;
+
+    gap: 1rem;
+
+    & div{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    & div img{
+        width: 3rem;
+    }
+}
+
+.container{
+    padding: 2rem;
+    color: #245d3a;
+}
+
+.questionContainer{
+    padding-bottom: 1rem;
+    min-height: 35rem;
+}
+
+.topContainer{
+    display: flex;
+
+}
+
+.side{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rightSide{
+    padding-top: 5rem;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+    & img{
+        width: 70%;
+        border-radius: 10px;
+    }
+}
+
+.spanTitle{
+    font-size: 1.3rem;
+}
+
+& .line{
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    & div{
+        width: 100%;
+        border-bottom: #245d3a solid 2px;
+    }
+
+    & img{
+        width: 1.5rem;
+    }
+}
+
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & button{
+        margin-inline: 2rem;
+        padding: 1rem;
+        border-radius: 100px;
+        background-color: #245d3a;
+        color: white;
+        border: none;
+
+        min-width: 5rem;
+
+        cursor: pointer;    
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+#activitiesButton{
+    padding: 1rem;
+    border-radius: 10px;
+    border: solid 1px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        transform: scale(1.05);
+        color: #245d3a;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .container {
+        padding: 1.25rem;
+    }
+
+    .questionContainer {
+        min-height: 0;
+    }
+
+    .topContainer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .side {
+        width: 100%;
+    }
+
+    .side h1 {
+        font-size: 2rem;
+    }
+
+    .rightSide {
+        padding-top: 0;
+        height: auto;
+    }
+
+    .rightSide img {
+        width: 100%;
+        max-height: 20rem;
+        object-fit: contain;
+    }
+
+    .buttonContainer {
+        gap: 0.5rem;
+    }
+
+    .buttonContainer button {
+        margin-inline: 0;
+        padding: 0.75rem;
+    }
+}

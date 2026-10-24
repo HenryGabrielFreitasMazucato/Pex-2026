@@ -1,0 +1,219 @@
+@import url("style.css");
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #245d3a;
+
+    & h2{
+        font-size: 2.5rem;
+    }
+
+    & .line{
+        display: flex;
+        align-items: center;
+
+        gap: 0.5rem;
+
+        margin-top: 1rem;
+        & div{
+            width: 50px;
+            border-bottom: #245d3a solid 2px;
+        }
+    }
+
+    & img{
+        height: 1.5rem;
+    }
+}
+
+.open {
+    background-color: #cfe0d0;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    min-height: 45%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+
+
+    & a{
+        margin: 3rem;
+        max-height: 1rem;
+        padding: 0.7rem;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #E8F5E9;
+        color: inherit;
+
+        text-decoration: none;
+
+        transition: transform 0.1s ease;
+
+        width: fit-content;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    }
+
+    & div:first-child {
+        box-sizing: border-box;
+
+        padding: 2.5rem;
+
+        width: 40%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & span {
+            color: #2f8736;
+            font-size: 1.3rem;
+        }
+
+        & h1 {
+            font-size: 3.7rem;
+        }
+    }
+
+    & .background{
+        display: flex;
+        flex-direction: row-reverse;
+
+        background-image: url("../img/removed.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card{
+    background-color: #cfe0d0;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    width: 15rem;
+    min-height: 20rem;
+
+    padding: 1rem;
+    padding-bottom: 2rem;
+
+    border-radius: 10px;
+
+    & img{
+        background-color: #E8F5E9;
+        width: 8rem;
+        height: 8rem;
+
+        border-radius: 1000px;
+        padding: 0.3rem;
+
+        object-fit: cover;
+    }
+}
+
+footer{
+    color: #E8F5E9;
+    background-color: #245d3a;
+    height: 3.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+}
+
+@media (max-width: 800px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .container {
+        padding-inline: 1rem;
+        text-align: center;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+    }
+
+    .open {
+        min-height: 0;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .open div:first-child {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .open div:first-child h1 {
+        font-size: 2.5rem;
+    }
+
+    .open a {
+        margin: 0 1.5rem 1.5rem;
+    }
+
+    .open .background {
+        min-height: 10rem;
+    }
+
+    .cardContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .card {
+        width: auto;
+        min-width: 0;
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    footer {
+        margin-top: 2rem;
+        padding: 0.75rem;
+        height: auto;
+        min-height: 3.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .card {
+        flex-basis: 100%;
+    }
+}

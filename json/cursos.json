@@ -1,0 +1,57 @@
+[
+    {
+        "textSlices": ["O lixo eletrônico, também conhecido como e-lixo, é composto por equipamentos eletrônicos e elétricos que não são mais utilizados ou não funcionam, como celulares, computadores, televisores, pilhas, baterias e carregadores.",
+            "O descarte incorreto desses materiais pode causar sérios danos ao meio ambiente. Alguns componentes contêm substâncias tóxicas que podem contaminar o solo e a água, prejudicando os animais, as plantas e a saúde humana.",
+            "Para evitar esses problemas, o lixo eletrônico deve ser encaminhado a pontos de coleta especializados, lojas que recebem equipamentos usados ou ecopontos que aceitam esse tipo de material. Esses locais encaminham os resíduos para processos adequados de reciclagem e tratamento.",
+            "A reciclagem permite recuperar materiais valiosos, como cobre, alumínio e outros metais, que podem ser reaproveitados na fabricação de novos produtos. Isso reduz a necessidade de extrair recursos naturais e diminui a quantidade de resíduos descartados no meio ambiente.",
+            "Além disso, podemos contribuir evitando trocar aparelhos eletrônicos sem necessidade, consertando equipamentos quando possível e doando aqueles que ainda funcionam. Pequenas atitudes fazem a diferença para construir um futuro mais sustentável."
+        ],
+        "title": "1. O que é lixo eletrônico?",
+        "alternatives": ["A) Apenas restos de alimentos descartados.",
+            "B) Equipamentos elétricos e eletrônicos que não são mais utilizados.",
+            "C) Somente pilhas e baterias usadas.",
+            "D) Qualquer material de plástico."
+        ],
+        "RAnswer": 1
+    },{
+        "title": "2. Qual é uma consequência do descarte incorreto de lixo eletrônico?",
+        "alternatives": [
+            "A) Aumento da fertilidade de todos os solos.",
+            "B) Produção natural de água potável.",
+            "C) Contaminação do solo e da água por substâncias tóxicas.",
+            "D) Diminuição da poluição em todos os ambientes."
+        ],
+        "RAnswer": 2
+
+    },{
+        "title": "3. Qual é a forma adequada de descartar equipamentos eletrônicos?",
+        "alternatives": [
+            "A) Jogá-los no lixo comum.",
+            "B) Queimá-los em locais abertos.",
+            "C) Enterrá-los no quintal.",
+            "D) Levá-los a pontos de coleta especializados."
+        ],
+        "RAnswer": 3
+
+    },{
+        "title": "4. Qual é um benefício da reciclagem de lixo eletrônico?",
+        "alternatives": [
+            "A) Permitir o reaproveitamento de materiais e reduzir a extração de recursos naturais.",
+            "B) Aumentar a quantidade de resíduos nos aterros.",
+            "C) Tornar todos os aparelhos descartados reutilizáveis imediatamente.",
+            "D) Eliminar completamente toda a poluição."
+        ],
+        "RAnswer": 0
+
+    },{
+        "title": "5. Qual atitude ajuda a diminuir a quantidade de lixo eletrônico?",
+        "alternatives": [
+            "A) Trocar de celular todos os anos, mesmo sem necessidade.",
+            "B) Descartar aparelhos quebrados em rios..",
+            "C) Consertar aparelhos quando possível e doar os que ainda funcionam.",
+            "D) Jogar carregadores no lixo comum."
+        ],
+        "RAnswer": 2
+
+    }
+]

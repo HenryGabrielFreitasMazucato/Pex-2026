@@ -1,0 +1,45 @@
+.nav{
+    width: 100%;
+}
+
+.nav ul{
+    max-width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.nav ul .join{
+    background-color: #245d3a;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover{
+        text-decoration: underline;
+        color: #245d3a;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem 1rem;
+        padding-inline: 0;
+        font-size: 1rem;
+    }
+
+    .nav ul .join {
+        padding: 0.4rem 0.75rem;
+    }
+}

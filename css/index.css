@@ -1,0 +1,112 @@
+@import url("./style.css");
+@import url("./nav.css");
+
+body{
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-position: center bottom;
+    color: #5b5859;
+    
+}
+
+h2{
+    color: #3fb849;
+    font-size: 4rem;
+    margin-block: 5rem;
+}
+
+.window{
+    height: 100%;
+    display: flex;
+    
+}
+
+.left{
+    height: 100%;
+    max-width: 25vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3rem;
+    
+    align-items: center;
+}
+
+.left #lk{
+    background-color: #245d3a;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.text-left{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.right{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.right span{
+    display: inline-block;
+    width: 30%; 
+    font-size: 1.2rem;
+    color: #E8F5E9;
+}
+
+.right h2{
+    width: 60%;
+}
+
+.brand{
+    color: #245d3a;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 700px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .window {
+        min-height: 100vh;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        padding: 2rem 1.5rem;
+    }
+
+    .text-left {
+        margin: 1.5rem 0;
+    }
+
+    .right {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .right h2 {
+        width: 100%;
+        font-size: 2.25rem;
+        margin-block: 2rem;
+    }
+
+    .right span {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
